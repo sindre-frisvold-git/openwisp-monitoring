@@ -418,5 +418,21 @@ schema = {
                 "required": ["ip", "interface"],
             },
         },
+        "port_neighbors": {
+            "type": "array",
+            "title": "Port neighbors",
+            "additionalItems": False,
+            "items": {
+                "type": "object",
+                "title": "Port neighbour",
+                "additionalProperties": False,
+                "properties": {
+                    "port": {"type": "string"},
+                    "mac": {"type": "string"},
+                    "is_local": {"type": "boolean"},
+                },
+                "required": ["port", "mac"],
+            },
+        },
     },
 }
