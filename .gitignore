@@ -72,3 +72,6 @@ local_settings.py
 *.tar.gz
 Pipfile
 Pipfile.lock
+
+sindre-ow-mon/*
+/Users/sindre/Library/Containers/com.docker.docker/Data/vms/0/data    
